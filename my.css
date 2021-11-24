@@ -1,0 +1,70 @@
+#otvet {
+    display:none
+}body { background: #c7b39b url(http://wp.widewallpapers.ru/2k/backgrounds/1920x1080/background-wide-wallpaper-1920x1080-003.jpg);
+    color: #fff;
+    text-align:center;
+    margin:auto 20px;
+}pre {
+    padding:30px;
+    text-align: center;
+    font-size:25px;
+    margin:auto 20px;
+}.form-control{
+    text-align:center;
+}h1{
+    font-size: 30px;
+    font-family: cursive;
+}h2 {
+    font-family: cursive;
+    padding: 25px;
+}.container {
+    max-width: 1200px;
+    margin: 0px-auto;
+    padding: 0px - 15px;
+}.centerPhoto {
+text-align: center;
+}
+@media (max-width: 1200px) {
+    .container{
+        max-width: 970;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        max-width: 750;
+    }
+}
+@media (max-width: 767px) {
+    .container{
+        max-width: none;
+    }
+}
+
+* {
+    box-sizing: border-box; 
+  }
+  body {
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #main > article {
+    flex: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+    background: url(http://wp.widewallpapers.ru/2k/backgrounds/1920x1080/background-wide-wallpaper-1920x1080-003.jpg);
+  }
+  #main > nav {
+    order: -1;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  header, footer {
+    background: url(http://wp.widewallpapers.ru/2k/backgrounds/1920x1080/background-wide-wallpaper-1920x1080-003.jpg);
+    height: 20vh;
+  }
